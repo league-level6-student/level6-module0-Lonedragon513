@@ -55,7 +55,6 @@ public class CheetahSearchApi {
                 .retrieve()
                 .bodyToMono(String.class)
                 .block();
-
         System.out.println(response);
 
         /*
