@@ -5,16 +5,16 @@ Complete the units tests in src/test/java/_06_payroll/PayrollTest.java to ensure
  */
 public class Payroll {
 
-    public double calculatePaycheck(double hourlyWage, int numHours){
+    public static double calculatePaycheck(double hourlyWage, int numHours){
         return hourlyWage * numHours;
     }
 
-    public double calculateMileageReimbursement(int milesTraveled){
+    public static double calculateMileageReimbursement(int milesTraveled){
         double centsPerMile = .575;
         return milesTraveled * centsPerMile;
     }
 
-    public String createOfferLetter(String employeeName, double hourlyWage){
+    public static String createOfferLetter(String employeeName, double hourlyWage){
         return "Hello " + employeeName + ", We are pleased to offer you an hourly wage of " + hourlyWage;
     }
 
