@@ -23,7 +23,6 @@ class DeliveryServiceTest {
     @BeforeEach
     void setUp() {
         MockitoAnnotations.openMocks(this);
-
         List<DeliveryDriver> availableDeliveryDrivers = Collections.singletonList(deliveryDriver);
         deliveryService = new DeliveryService(availableDeliveryDrivers);
     }

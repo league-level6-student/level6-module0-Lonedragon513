@@ -21,7 +21,6 @@ public class DeliveryDriver {
     boolean currentlyOnDelivery;
 
     List<Order> orders;
-
     public DeliveryDriver(String name, Car car, CellPhone cellPhone) {
         this.name = name;
         this.car = car;
@@ -59,6 +58,7 @@ public class DeliveryDriver {
     }
 
     public boolean wasteTime(){
+    	System.out.println(cellPhone.browseCatMemes());
         return cellPhone.browseCatMemes();
     }
 
